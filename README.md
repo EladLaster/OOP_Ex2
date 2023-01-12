@@ -90,9 +90,9 @@ The class where we create a Thrade that has a name and a counter.
 In this class we implement the run() function of the Thrade which in the future we will use to count the lines of the files.
 The function getCounter() will return the number of lines that the specific Thrade found.
 
--_Thread_ex2()_
+- _Thread_ex2()_
 
--_getCounter()_
+- _getCounter()_
 
 - _run()_
 
@@ -103,7 +103,7 @@ The class where we create a ThradePool that has a name and a counter.
 In this class we implement the coll() function of the ThradePool which in the future we will use to count the lines of the files.
 The call() function will itself send the number of lines that the ThreadePool found.
 
--_ThreadP_ex2 ()_
+- _ThreadP_ex2()_
 
 - _call()_
 
