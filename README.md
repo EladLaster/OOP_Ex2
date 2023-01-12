@@ -110,4 +110,7 @@ It is often used to make existing classes work with others without modifying the
 
 ### *part1 uml:*
 
+
 ### *part2 uml:*
+
+![WhatsApp Image 2023-01-12 at 15 51 27](https://user-images.githubusercontent.com/118683420/212110544-3fc26566-0fce-4c10-b54e-3507ac94aa75.jpeg)
