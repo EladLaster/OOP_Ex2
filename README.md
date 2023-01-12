@@ -8,8 +8,10 @@
             
 *subject:*
           
-            1)
-            2)
+            1)In the first part we will create several text files, and count the number of lines created in several different ways:
+              normal method without the use of threads,method using threads, and and method using threadpool.
+             
+            2)In the second part we will create a new "Task" type that consists of an asynchronous operation and priority, and in addition we will also create a                     new "ThreadPool" type that will prioritize the type of new tasks we built - according to their priority.
             
 ## get start 
 1) clone the repository:
@@ -18,17 +20,24 @@
                                                
 2) Open in any Java IDE.
  
-3) 
+3) part 1: Create a number of new text files with a random number of lines and get the total number of lines of the texts
+            by one of four existing methods/functions present in the class.
+
+   part 2: Bulid a new CustomExecutor and a new task with/without priority, send the task to the new CustomExecutor , submit the task         
+           u create in the CustomExecutor and get the result of the task you sent to the program by considering the priority of the task.
 
 4) Enjoy!!!
 
 
 ## Adapter design pattern
+the adapter pattern is a software design pattern that allows the interface of an existing class to be used as another interface.
+It is often used to make existing classes work with others without modifying their source code.
 
 
 
 
 ## classes part1
+
 
 ### *Ex2:*
 
@@ -89,6 +98,7 @@
 
 
 ## tests
+
 
 ### *part1 test:*
 
