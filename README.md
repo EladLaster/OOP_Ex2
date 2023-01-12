@@ -123,28 +123,43 @@ We will also add a compareTo() function with which the priority queue will compa
 
 ### *CustomExecutor:*
 
-- _CustomExecutor()_ -
+The class where we create a CustonExecutor() that has a ThreadPoolExecutore a PriorityBlockingQueue and a arr.
+In this class, a ThradePool is built with a minimum number of trades - about half the number of processors available for Java Virtual Machine,
+a ThreadPool is built with a maximum number of available processor tetrads and we subtract 1 from it,and contains within it a queue of priorities.
+In this class we would like to send the tם the priority queue and execute them with the help of the Thrades.
+We will also want to keep the highest priority so that we return it in the getCurrentMax() function.
+At the end, all trades are shut down by the gracefullyTerminate() function.
 
-- _exe()_ -
+- _CustomExecutor()_ 
+
+- _exe()_ 
 
 - _submit()_ - 2 func
 
-- _getCurrentMax()_ -
+- _getCurrentMax()_ 
 
-- _gracefullyTerminate()_ -
+- _gracefullyTerminate()_ 
 
 ### *Task:*
 
+The class where we create a Task() that has a Callable and a Type.
+In this class we will create priority/non-priority tasks that will have their own call() function.
+We will also build a function that will be able to compare tasks whether they are the same task.
+
+- _Task()
+
 - _createTask()_ - 2 func
 
-- _get_priority()_ -
+- _get_priority()_ 
 
-- _call()_ -
+- _call()_ 
 
-- _compareTo()_ -
+- _compareTo()_ 
 
 ### *TaskType:*
 
+This class will contain the priorities given to us, between 1 and 10.
+We can take the priority of any task from this class.
 
 ## Tests
 
