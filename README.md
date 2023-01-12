@@ -46,7 +46,7 @@ We want to see that runtimes differ from method to method, and we want to unders
 We can see that by running the ex2 program, it follows that working with Thrades and ThradePool is indeed faster than working without Thrades. This shows that indeed the calculation of lines of text in parallel is better than regular counting. This is obvious because counting rows performed all at once by several objects is faster than counting the lines one at a time.
 You can also see that working with ThradePool is faster than working with Thrades, because when you create a Thradepool, he already produces a large number of Thrades himself that will be ready to receive tasks, instead of creating Thrades only when the task arrives.
 
-In the following picture we can see the correctness of the claim by create a 7000 files.
+In the following picture we can see the correctness of the claim by create a 5000 files.
 
 ![2023-01-12 (2)](https://user-images.githubusercontent.com/118683420/212127148-0c09ddfa-ff6b-4f80-99d7-a984090e068c.png)
 
