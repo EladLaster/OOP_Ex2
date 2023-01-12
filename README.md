@@ -30,6 +30,16 @@
 
 4) Enjoy!!!
 
+## Uml
+
+### *part1 uml:*
+
+![WhatsApp Image 2023-01-12 at 15 53 15](https://user-images.githubusercontent.com/118683420/212110815-09c3f479-e9ec-4db7-81f3-90782745d62d.jpeg)
+
+### *part2 uml:*
+
+![WhatsApp Image 2023-01-12 at 15 51 27](https://user-images.githubusercontent.com/118683420/212110544-3fc26566-0fce-4c10-b54e-3507ac94aa75.jpeg)
+
 
 ## Adapter design pattern
 the adapter pattern is a software design pattern that allows the interface of an existing class to be used as another interface.
@@ -106,12 +116,3 @@ It is often used to make existing classes work with others without modifying the
 ### *part2 test:*
 
 
-## Uml
-
-### *part1 uml:*
-
-![WhatsApp Image 2023-01-12 at 15 53 15](https://user-images.githubusercontent.com/118683420/212110815-09c3f479-e9ec-4db7-81f3-90782745d62d.jpeg)
-
-### *part2 uml:*
-
-![WhatsApp Image 2023-01-12 at 15 51 27](https://user-images.githubusercontent.com/118683420/212110544-3fc26566-0fce-4c10-b54e-3507ac94aa75.jpeg)
