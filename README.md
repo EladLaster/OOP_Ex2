@@ -11,7 +11,8 @@
             1)In the first part we will create several text files, and count the number of lines created in several different ways:
               normal method without the use of threads,method using threads, and and method using threadpool.
              
-            2)In the second part we will create a new "Task" type that consists of an asynchronous operation and priority, and in addition we will also create a                     new "ThreadPool" type that will prioritize the type of new tasks we built - according to their priority.
+            2)In the second part we will create a new "Task" type that consists of an asynchronous operation and priority, and in addition we will also create a new 
+              "ThreadPool" type that will prioritize the type of new tasks we built - according to their priority.
             
 ## get start 
 1) clone the repository:
