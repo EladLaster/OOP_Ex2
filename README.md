@@ -129,5 +129,6 @@ In the "getNumOfLinesThreadPool" function, We would like to see that the number 
 ### *part2 test:*
 
 In this class, we will check the functions of all the file we created.
+We will introduce new "Tasks" that we have built into the new "CustomExecutor" that we have created, we will check that the results of the tasks are correct and that the "CustomeExecutor" perform the tasks according to the priority - from high to low.
 
 
