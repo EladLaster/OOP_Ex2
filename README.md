@@ -15,17 +15,17 @@
               and in addition we will also create a new  "ThreadPool" type that will prioritize the type of new tasks we built 
               - according to their priority.
             
-## get start 
-1) clone the repository:
+## Get start 
+1) Clone the repository:
 
                         git clone https://github.com/EladLaster/OOP_Ex2.git   
                                                
 2) Open in any Java IDE.
  
-3) part 1: Create a number of new text files with a random number of lines and get the total number of lines of the texts
+3) In part 1: Create a number of new text files with a random number of lines and get the total number of lines of the texts
             by one of four existing methods/functions present in the class.
 
-   part 2: Bulid a new CustomExecutor and a new task with/without priority, send the task to the new CustomExecutor , submit the task         
+   In part 2: Bulid a new CustomExecutor and a new task with/without priority, send the task to the new CustomExecutor , submit the task         
            u create in the CustomExecutor and get the result of the task you sent to the program by considering the priority of the task.
 
 4) Enjoy!!!
@@ -38,7 +38,7 @@ It is often used to make existing classes work with others without modifying the
 
 
 
-## classes part1
+## Classes part1
 
 
 ### *Ex2:*
@@ -64,7 +64,7 @@ It is often used to make existing classes work with others without modifying the
 
 - _call()_ -
 
-## classes part2
+## Classes part2
 
 
 ### *Adapter:*
@@ -99,11 +99,15 @@ It is often used to make existing classes work with others without modifying the
 ### *TaskType:*
 
 
-## tests
-
+## Tests
 
 ### *part1 test:*
 
-
 ### *part2 test:*
 
+
+## Uml
+
+### *part1 uml:*
+
+### *part2 uml:*
