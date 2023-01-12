@@ -48,7 +48,9 @@ You can also see that working with ThradePool is faster than working with Thrade
 
 In the following picture we can see the correctness of the claim by create a 5000 files.
 
-![2023-01-12 (2)](https://user-images.githubusercontent.com/118683420/212127148-0c09ddfa-ff6b-4f80-99d7-a984090e068c.png)
+
+![2023-01-12 (4)](https://user-images.githubusercontent.com/118683420/212140383-3dce131b-f0c0-46ae-8202-d8daabcca826.png)
+
 
 
 
