@@ -67,36 +67,58 @@ The correlation will make it possible to do this by inserting the values of the 
 
 
 ### *Ex2:*
-
+The main class in which we call the file creation function and the file line count function.
+running it will show us the total number of lines in the files by one of the method that we defined, and the running times of each method.
 
 ### *Ex2_1:*
+The class in which we build the function with which we create new files with a random number of lines.
+We will also build in it the functions with which we count the total number of lines of the built files - this in one of the 3 ways we have defined:
+normal method without the use of threads,method using threads and method using threadpool.
 
-- _createTextFiles()_- 
+- _createTextFiles()_
 
-- _getNumOfLines()_- 
+- _getNumOfLines()_
 
-- _getNumOfLinesThreads()_- 
+- _getNumOfLinesThreads()_
 
-- _getNumOfLinesThreadPool()_-
+- _getNumOfLinesThreadPool()_
 
 
 ### *Thread_Ex2:*
 
-- _run()_ -
+The class where we create a Thrade that has a name and a counter.
+In this class we implement the run() function of the Thrade which in the future we will use to count the lines of the files.
+The function getCounter() will return the number of lines that the specific Thrade found.
+
+-_Thread_ex2()_
+
+-_getCounter()_
+
+- _run()_
 
 
 ### *ThreadP_Ex2:*
 
-- _call()_ -
+The class where we create a ThradePool that has a name and a counter.
+In this class we implement the coll() function of the ThradePool which in the future we will use to count the lines of the files.
+The call() function will itself send the number of lines that the ThreadePool found.
+
+-_ThreadP_ex2 ()_
+
+- _call()_
 
 ## Classes part2
 
 
 ### *Adapter:*
 
-- _Adapter()_ -
+In this class we will use an Adapter() that will help us transfer the tasks with a call() function to the tasks with a run() function,
+this is because later we will want to put them in a priority queue that only accepts tasks that implement a run() function.
+We will also add a compareTo() function with which the priority queue will compare the tasks.
 
-- _compareTo()_ -
+- _Adapter()_
+
+- _compareTo()_
 
 
 ### *CustomExecutor:*
