@@ -44,11 +44,9 @@
 ## Adapter design pattern
 
 the adapter pattern is a software design pattern that allows the interface of an existing class to be used as another interface.
-
 It is often used to make existing classes work with others without modifying their source code.
 
 Whenever we want to link an object to a task and there is no real connection between it and the object, we want to build an adapter that will cause an indirect connection between the object and the task that will pass through it. 
-
 The correlation will make it possible to do this by inserting the values of the given object and adjusting them to the given task.
 
 
