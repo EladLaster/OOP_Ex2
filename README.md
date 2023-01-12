@@ -9,7 +9,7 @@
 *subject:*
           
             1)In the first part we will create several text files, and count the number of lines created in several different ways:
-              normal method without the use of threads,method using threads, and and method using threadpool.
+              normal method without the use of threads,method using threads and method using threadpool.
              
             2)In the second part we will create a new "Task" type that consists of an asynchronous operation and priority,
               and in addition we will also create a new  "ThreadPool" type that will prioritize the type of new tasks we built 
@@ -39,6 +39,11 @@
 ### *part2 uml:*
 
 ![WhatsApp Image 2023-01-12 at 15 51 27](https://user-images.githubusercontent.com/118683420/212110544-3fc26566-0fce-4c10-b54e-3507ac94aa75.jpeg)
+
+## RunTimes
+
+We want to see that runtimes differ from method to method, and we want to understand which method is more efficient in terms of runtime
+We can see that by running the ex2 program, it follows that working with Thrades and ThradePool is indeed faster than working without Thrades. This shows that indeed the calculation of lines of text in parallel is better than regular counting. This is obvious because counting rows performed all at once by several objects is faster than counting the lines one at a time.
 
 
 ## Adapter design pattern
@@ -115,6 +120,14 @@ The correlation will make it possible to do this by inserting the values of the 
 
 ### *part1 test:*
 
+In this class, we will check the functions of the "Ex_1".
+In the "createTextFiles" function, We would like to see that the number of files we asked a function to build has indeed been created.
+In the "getNumOfLines" function, We would like to see that the number of rows in the created files does indeed match the number of rows that the function spends (normal method without the use of threads).
+In the "getNumOfLinesThreads" function, We would like to see that the number of rows in the created files does indeed match the number of rows that the function spends (method using threads).
+In the "getNumOfLinesThreadPool" function, We would like to see that the number of rows in the created files does indeed match the number of rows that the function spends (method using threadpool).
+
 ### *part2 test:*
+
+In this class, we will check the functions of all the file we created.
 
 
