@@ -93,8 +93,7 @@ public class Ex2_1 {
         ExecutorService ThreadPool = Executors.newFixedThreadPool(fileNames.length);
         int counter=0;
         for (int i = 0; i < fileNames.length ;i++) {
-            ThreadP_ex2 task=new ThreadP_ex2((fileNames[i]));
-            future[i]=ThreadPool.submit(task);
+            future[i]=ThreadPool.submit(new ThreadP_ex2((fileNames[i])));
     }
         
         for (int i=0;i< future.length;i++) {
