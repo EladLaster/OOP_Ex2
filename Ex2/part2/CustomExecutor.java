@@ -20,10 +20,10 @@ public class CustomExecutor<T>{
         if (task == null) {
             throw new NullPointerException();
         }
-        RunnableFuture<T> futureTask = new Adapter<T>(task);
-        myThreadPool.execute(futureTask);
+        RunnableFuture<T> future = new Adapter<T>(task);
+        myThreadPool.execute(future);
         arr[task.get_priority()-1]--;
-        return futureTask;
+        return future;
     }
 
     public  <T> Future<T> submit(Callable callable, TaskType type) {
