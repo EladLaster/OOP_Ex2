@@ -23,10 +23,10 @@
 2) Open in any Java IDE.
  
 3) In part 1: Create a number of new text files with a random number of lines and get the total number of lines of the texts
-            by one of four existing methods/functions present in the class.
+              by 1 of 3 existing methods/functions present in the class.
 
-   In part 2: Bulid a new CustomExecutor and a new task with/without priority, send the task to the new CustomExecutor , submit the task         
-           u create in the CustomExecutor and get the result of the task you sent to the program by considering the priority of the task.
+   In part 2: Bulid a new CustomExecutor and a new task with/without priority, send the task to the new CustomExecutor , submit the task 
+              u create in the CustomExecutor and get the result of the task you sent to the program by considering the priority of the task.
 
 4) Enjoy!!!
 
