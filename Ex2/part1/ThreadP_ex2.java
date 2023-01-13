@@ -6,7 +6,7 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.util.concurrent.Callable;
 
-public class ThreadP_ex2 implements  Callable<Integer> {
+public class ThreadP_ex2 implements  Callable {
 
     int counter;
     String fileName;
