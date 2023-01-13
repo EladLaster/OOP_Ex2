@@ -96,7 +96,7 @@ public class Ex2_1 {
             ThreadP_ex2 task=new ThreadP_ex2((fileNames[i]));
             future[i]=ThreadPool.submit(task);
     }
-        ThreadPool.shutdown();
+        
         for (int i=0;i< future.length;i++) {
             try {
                 counter = counter+(int)future[i].get();
@@ -106,6 +106,7 @@ public class Ex2_1 {
                 throw new RuntimeException(e);
             }
         }
+        ThreadPool.shutdown();
         return counter;
     }
 
