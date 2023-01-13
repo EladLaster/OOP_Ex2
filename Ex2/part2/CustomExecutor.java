@@ -17,9 +17,6 @@ public class CustomExecutor<T>{
     }
 
     private <T> Future<T> exe(Task task) {
-        if (task == null) {
-            throw new NullPointerException();
-        }
         RunnableFuture<T> future = new Adapter<T>(task);
         myThreadPool.execute(future);
         arr[task.get_priority()-1]--;
